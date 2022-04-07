@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+#botonera{
+	background-color: rgba(255, 39, 0, 0.6);
+}
+.novedades__articulo{
+	width: 90%;
+	height: auto;
+    margin: 10px auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border: solid 2px navajowhite;
+    background-color: rgba(255, 39, 0, 0.5);
+    text-align: center;
+
+	
+    
+}
+body{
+	background-image: url(../img/background.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+	margin-bottom:100px;
+
+
+    }
+  #footer{
+  	width: 90%;
+	height: auto;
+    margin: 10px auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border: solid 2px navajowhite;
+    background-color: rgba(255, 39, 0, 0.5);
+    text-align: center;
+
+  }
+  .btn-shop{
+  	background-color: rgba(255, 39, 0, 1.0);
+  }
+
+.rotate:hover{
+    transform: rotateZ(90deg);
+    cursor: pointer;
+    transition: transform 3s;
+}
+
+@keyframes animateDiv{
+    2% {width: 400px;}
+    15% {width: 700px;}
+    40% {width: 900px;}
+    85% {width: 500px;}
+    90% {width: 400px;}
+}
+
+.animate{
+background-color:#8e2f2f;
+animation-name: animateDiv;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 7s;
+}
+@keyframes textAlpha{
+    from{opacity: 1;}
+    to{opacity: 7;}
+}
+
+@media	(min-width:  280px) and (max-width: 395px)
